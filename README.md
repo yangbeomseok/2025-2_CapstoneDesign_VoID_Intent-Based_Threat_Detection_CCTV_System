@@ -26,7 +26,7 @@
   - 행동 의도 탐지에 적합한 딥러닝 모델 아키텍처 조사 (공통)
   - 관련 선행 연구 논문 및 실제 적용 사례 조사
  
-### [9월 25일 ~ 10월 2일 (Week4)](2025-2_CapstoneDesign_VOID_Intent-Based_Threat_Detection_CCTV_System/Week4/)
+### [9월 25일 ~ 10월 2일 (Week4)](./Week4/)
 
 - [**원종은 & 양범석**](Week4/Research_양범석_원종은.md): 
   - 추
