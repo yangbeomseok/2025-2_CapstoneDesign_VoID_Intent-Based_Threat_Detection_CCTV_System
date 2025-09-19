@@ -16,7 +16,7 @@
 
 
 ## 업무 분담
-### [9월 17일 ~ 9월 25일 (Week3)](2025-2_CapstoneDesign_VOID_Intent-Based_Threat_Detection_CCTV_System/Week3/)
+### [9월 17일 ~ 9월 25일 (Week3)](./Week3/)
 
 - [**원종은 & 양범석**](Week3/Research_양범석_원종은.md): 
   - 행동 의도 탐지에 적합한 딥러닝 모델 아키텍처 조사 (공통)
