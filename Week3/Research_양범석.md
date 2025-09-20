@@ -56,3 +56,17 @@
 
 1.  **데이터 형태의 차별화**: 이미지(JPG)가 아닌 **스켈레톤(좌표 시퀀스)** 데이터를 사용하여 프라이버시를 극대화하고, 행동의 동적 패턴에 집중한다.
 2.  **데이터 클래스의 차별화**: '정상'과 '범죄'의 2-Class 분류를 넘어, **'의심' 클래스를 추가한 3-Class 데이터셋**을 구축하여 범죄를 사전에 예측하는 것을 목표로 한다.
+
+
+# 3. 공개 데이터셋 목록 및 특성 분석
+
+| 데이터셋명      | 특성                                     | 활용 방안                          | 출처             |
+|---------------|----------------------------------------|-----------------------------------|----------------|
+| [CRxK](https://github.com/dxlabskku/CRxK-6)    | 6개 범죄 유형, 총 51,000 프레임 샘플링[1]  | 핵심 범죄 행동 프레임 학습         | Sci. Rep. 2025[1] |
+| [AI Hub 이상행동](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=171) | 8,436편(717시간), 12개 이상행동 라벨[61]   | 정상 vs 의심 행동 이진 분류        | AI Hub[61]      |
+| HR-Crime  | UCF-Crime 데이터의 단점을 보완하여 정제 | 이상행동 탐지 일반화 성능 검증    | UCSB CV Lab[3]  |
+| [UNI-Crime](https://link.springer.com/chapter/10.1007/978-3-030-19823-7_23) | HR-Crime과 마찬가지, 10초 길이로 정제 후 유튜브 영상을 추가 수집, 1001개의 정상 420개의 범죄 | 이상행동 탐지 일반화 성능 검증 | Sci. Rep. 2025[1] |
+| [XD-Violence](https://roc-ng.github.io/XD-Violence/)   | 4,000편 폭력·위협 행동 비디오             | 폭력·위협 세부 분류                | Bilibili AI[4]  |
+| [ShanghaiTech](https://svip-lab.github.io/dataset/campus_dataset.html)  | 13개 장면, 이상행동 라벨                  | 이상행동(Anomaly) 탐지            | SJTU[5]         |
+| [VIRAT](https://gitlab.kitware.com/viratdata/viratannotations)         | 10시간 이상 공공장소 활동·침입 라벨       | 이동 및 침입 이벤트 감지          | NIST[6]         |
+| [Avenue](https://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html)        | 16편 영상, 1,561 이상행동 이벤트          | 군중 이상행동 분석                | UCSD[7]         |
