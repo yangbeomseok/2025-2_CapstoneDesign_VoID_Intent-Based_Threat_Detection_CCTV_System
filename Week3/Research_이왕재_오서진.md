@@ -35,7 +35,7 @@
 
 ---
 
-## 2. 선행 연구 논문
+## 2. 선행 연구 논문 분석
 
 | 주제 | 논문 이름 | 목표 | 접근 방법 | 링크 | 
 | :--- | :--- | :--- | :--- | :--- |
@@ -44,11 +44,7 @@
 | 비디오 기반 폭력 행동 탐지 | **Human Interaction Learning on 3D Skeleton Point Clouds for Video Violence Recognition (ECCV, 2020)** | **사람 간 상호작용**을 중심으로 폭력 여부를 정밀 인식 | 비디오에서 추출한 스켈레톤 시퀀스를 **3D 포인트클라우드**로 구성하고, **Skeleton Points Interaction Learning(SPIL)** 로 포인트 간 관계를 학습(지역/전역 상호작용, 멀티헤드 메커니즘) | **[ECCV 공식](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490069.pdf?utm_source=chatgpt.com)** / **[확장·보강판(arXiv, 2023)](https://arxiv.org/abs/2308.13866?utm_source=chatgpt.com)** | 
 | 실시간 군중 이상행동 탐지 | **An enhanced framework for real-time dense crowd anomaly detection (CADF) (Springer, 2025)** | 공항·역 등 **혼잡 환경**에서 **실시간 이상행동**(갑작스런 분산·도주 등) 탐지 | **검출+추적(YOLOv8/DeepSORT 등)** 로 군중 동태를 추적하고, **CNN/RNN/3D-CNN**으로 시공간 패턴을 분석(소프트-NMS 등 실시간 최적화) | **[CADF(Springer)](https://link.springer.com/article/10.1007/s10462-025-11206-w?utm_source=chatgpt.com)** / **[실시간 군중 이상탐지 서베이(ACM/PUC)](https://dl.acm.org/doi/abs/10.1007/s00779-021-01586-5?utm_source=chatgpt.com)** / **[YOLO 기반 실시간 군중 검출(PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9885395/?utm_source=chatgpt.com)** | 
 | 그래프 기반 행동 인식 모델 | **Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (AAAI, 2018)** | 스켈레톤(관절 좌표)을 **그래프(노드/엣지)** 로 모델링해 **공간+시간** 관계를 동시에 학습, 행동 인식 정확도 **대폭 향상** | **시공간 그래프 합성곱**(ST-GCN)으로 관절 간 상호작용을 계층적으로 추출 → 스켈레톤 기반 라인의 **표준 베이스라인** | **[Paper](https://arxiv.org/abs/1801.07455?utm_source=chatgpt.com)** / **[GitHub](https://github.com/yysijie/st-gcn?utm_source=chatgpt.com)** |
-| 스켈레톤 트랜스포머 기반 범죄 동작 인식 | **Spatial-Temporal Transformer for Crime Recognition (HR-Crime 벤치마크)** | 감시 영상에서 사람 관련 범죄 동작 분류 | 스켈레톤 트랙에 **이중(Self-Attention) 시공간 모듈** 적용 → 장기 의존·다인 상호작용 포착 | **[Paper](https://ris.utwente.nl/ws/portalfiles/portal/295152659/Spatial_Temporal_Transformer_for_Crime_Recognition_in_Surveillance_Videos.pdf?utm_source=chatgpt.com)** |
-
----
-
-## 3. 실제 적용 사례
+| 스켈레톤 트랜스포머 기반 범죄 동작 인식 | **Spatial-Temporal Transformer for Crime Recognition (HR-Crime 벤치마크)** | 감시 영상에서 사람 관련 범죄 동작 분류 | 스켈레톤 트랙에 **이중(Self-Attention) 시공간 모듈** 적용 → 장기 의존·다인 리
 
 ### 3.1. [서울특별시 서초구 — AI 기반 범죄·사고 예방](https://www.munhwa.com/article/11444245)
 
