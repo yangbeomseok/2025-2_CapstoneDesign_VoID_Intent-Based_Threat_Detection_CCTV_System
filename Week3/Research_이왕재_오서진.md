@@ -37,6 +37,14 @@
 
 ## 2. 행동 의도 및 이상행동 탐지에 관한 선행 연구 논문
 
+| 주제 | 논문 이름 | 목표 | 접근 방법 | 링크 | 
+| :--- | :--- | :--- | :--- | :--- |
+| CCTV 기반 비정상 행동 예측 모델 | **다중 CCTV 연동 기반 비정상 행동 예측모델** | 다수 CCTV에서 수집한 객체 정보를 **연동·추적**하고, 객체 간 **관계/상호작용**을 분석해 **범죄 전 비정상 징후**를 예측 | 객체 인식 → 다중 카메라 연동 추적 → 시간적 행동 패턴 분석(관계 중심) | **[Paper](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=NPAP12684279&utm_source=chatgpt.com)** | 
+| 비디오 기반 폭력 행동 탐지 | **Human skeletons and change detection for efficient violence recognition in surveillance videos (CVIU, 2023)** | 감시 영상에서 **경량** 구조로 폭력/비폭력을 자동 탐지 | 사람 **스켈레톤**과 **변화 감지(모션/프레임 변화)** 를 결합해 시간적 움직임 패턴을 효율적으로 포착(실전 감시 환경에서의 속도·효율 중시) | **[Paper](https://www.sciencedirect.com/science/article/pii/S1077314223001194?utm_source=chatgpt.com)** / **[GitHub](https://www.sciencedirect.com/science/article/pii/S1077314223001194?utm_source=chatgpt.com)** | 
+| 비디오 기반 폭력 행동 탐지 | **Human Interaction Learning on 3D Skeleton Point Clouds for Video Violence Recognition (ECCV, 2020)** | **사람 간 상호작용**을 중심으로 폭력 여부를 정밀 인식 | 비디오에서 추출한 스켈레톤 시퀀스를 **3D 포인트클라우드**로 구성하고, **Skeleton Points Interaction Learning(SPIL)** 로 포인트 간 관계를 학습(지역/전역 상호작용, 멀티헤드 메커니즘) | **[ECCV 공식](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490069.pdf?utm_source=chatgpt.com)** / **[확장·보강판(arXiv, 2023)](https://arxiv.org/abs/2308.13866?utm_source=chatgpt.com)** | 
+| 실시간 군중 이상행동 탐지 | **An enhanced framework for real-time dense crowd anomaly detection (CADF) (Springer, 2025)** | 공항·역 등 **혼잡 환경**에서 **실시간 이상행동**(갑작스런 분산·도주 등) 탐지 | **검출+추적(YOLOv8/DeepSORT 등)** 로 군중 동태를 추적하고, **CNN/RNN/3D-CNN**으로 시공간 패턴을 분석(소프트-NMS 등 실시간 최적화) | **[CADF(Springer)](https://link.springer.com/article/10.1007/s10462-025-11206-w?utm_source=chatgpt.com)** / **[실시간 군중 이상탐지 서베이(ACM/PUC)](https://dl.acm.org/doi/abs/10.1007/s00779-021-01586-5?utm_source=chatgpt.com)** / **[YOLO 기반 실시간 군중 검출(PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9885395/?utm_source=chatgpt.com)** | 
+| 그래프 기반 행동 인식 모델 | **Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (AAAI, 2018)** | 스켈레톤(관절 좌표)을 **그래프(노드/엣지)** 로 모델링해 **공간+시간** 관계를 동시에 학습, 행동 인식 정확도 **대폭 향상** | **시공간 그래프 합성곱**(ST-GCN)으로 관절 간 상호작용을 계층적으로 추출 → 스켈레톤 기반 라인의 **표준 베이스라인** | **[Paper](https://arxiv.org/abs/1801.07455?utm_source=chatgpt.com)** / **[GitHub](https://github.com/yysijie/st-gcn?utm_source=chatgpt.com)** |
+
 ---
 
 ## 3.  행동 의도 및 이상행동 탐지의 실제 적용 사례
