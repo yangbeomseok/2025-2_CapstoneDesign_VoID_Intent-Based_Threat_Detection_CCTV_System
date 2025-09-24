@@ -28,11 +28,11 @@
  
 ### [9월 25일 ~ 10월 2일 (Week4)](./Week4/)
 
-- [**Team 순살(오서진 & 양범석)**](Week4/Research_Team_순살.md): 
+- [**Team 순살(오서진 & 양범석)**](Week4/Week4_Research_Team_순살.md): 
   - 추
   - 가
 
-- [**Team 뼈(이왕재 & 원종은)**](Week4/Research_Team_뼈.md): 
+- [**Team 뼈(이왕재 & 원종은)**](Week4/Week4_Research_Team_뼈.md): 
   - 예
   - 정 ...
   
