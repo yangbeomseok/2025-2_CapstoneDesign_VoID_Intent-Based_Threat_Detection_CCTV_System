@@ -1,0 +1,213 @@
+예시 파일입니다 !!!! 
+새로운 어노테이션 - JSON 
+
+{
+    "folder": "assault",
+    "filename": "10-1_cam01_assault03_place07_night_spring.mp4",
+    "source": {
+        "database": "NIA2019 Database v1",
+        "annotation": "NIA2019"
+    },
+    "size": {
+        "width": 3840,
+        "height": 2160,
+        "depth": 3
+    },
+    "header": {
+        "duration": "00:05:08.2",
+        "fps": 30,
+        "frames": 9245,
+        "inout": "IN",
+        "location": "PLACE07",
+        "season": "SPRING",
+        "weather": "SUNNY",
+        "time": "NIGHT",
+        "population": 2,
+        "character": "F20,F20"
+    },
+    "event": {
+        "assault": {
+            "start_time_str": "00:02:26.0",
+            "duration_str": "00:02:20.2"
+        },
+        "suspicious": {
+            "start_time_str": "",
+            "duration_str": ""
+        }
+    },
+    "objects": [
+        {
+            "objectname": "person_1",
+            "position": {
+                "keyframe": 4382,
+                "keypoint": {
+                    "x": 2528,
+                    "y": 654
+                }
+            },
+            "actions": [
+                {
+                    "actionname": "pushing",
+                    "frames": [
+                        {
+                            "start": 4382,
+                            "end": 4418
+                        },
+                        {
+                            "start": 4483,
+                            "end": 4506
+                        },
+                        {
+                            "start": 4546,
+                            "end": 4592
+                        },
+                        {
+                            "start": 4727,
+                            "end": 4753
+                        },
+                        {
+                            "start": 4792,
+                            "end": 4820
+                        },
+                        {
+                            "start": 5620,
+                            "end": 5662
+                        },
+                        {
+                            "start": 5734,
+                            "end": 5765
+                        },
+                        {
+                            "start": 5784,
+                            "end": 5830
+                        },
+                        {
+                            "start": 6201,
+                            "end": 6251
+                        },
+                        {
+                            "start": 7094,
+                            "end": 7195
+                        },
+                        {
+                            "start": 7729,
+                            "end": 7770
+                        },
+                        {
+                            "start": 7966,
+                            "end": 8006
+                        },
+                        {
+                            "start": 8541,
+                            "end": 8579
+                        }
+                    ]
+                },
+                {
+                    "actionname": "kicking",
+                    "frames": [
+                        {
+                            "start": 5359,
+                            "end": 5393
+                        },
+                        {
+                            "start": 5555,
+                            "end": 5600
+                        },
+                        {
+                            "start": 5842,
+                            "end": 6032
+                        },
+                        {
+                            "start": 6058,
+                            "end": 6161
+                        },
+                        {
+                            "start": 8034,
+                            "end": 8072
+                        }
+                    ]
+                },
+                {
+                    "actionname": "pulling",
+                    "frames": [
+                        {
+                            "start": 6250,
+                            "end": 6411
+                        },
+                        {
+                            "start": 6662,
+                            "end": 6731
+                        },
+                        {
+                            "start": 7222,
+                            "end": 7269
+                        },
+                        {
+                            "start": 8093,
+                            "end": 8153
+                        }
+                    ]
+                },
+                {
+                    "actionname": "punching",
+                    "frames": [
+                        {
+                            "start": 7312,
+                            "end": 7350
+                        },
+                        {
+                            "start": 7804,
+                            "end": 7834
+                        },
+                        {
+                            "start": 8215,
+                            "end": 8247
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "objectname": "person_2",
+            "position": {
+                "keyframe": 5366,
+                "keypoint": {
+                    "x": 2296,
+                    "y": 699
+                }
+            },
+            "actions": [
+                {
+                    "actionname": "falldown",
+                    "frames": [
+                        {
+                            "start": 5366,
+                            "end": 5425
+                        },
+                        {
+                            "start": 5569,
+                            "end": 5629
+                        },
+                        {
+                            "start": 5734,
+                            "end": 5765
+                        },
+                        {
+                            "start": 7172,
+                            "end": 7226
+                        },
+                        {
+                            "start": 7982,
+                            "end": 8044
+                        },
+                        {
+                            "start": 8541,
+                            "end": 8582
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
